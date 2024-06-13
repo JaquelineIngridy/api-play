@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poetsen+One&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+  background: #000000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.card-player {
+  background: #8d5252;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  box-shadow: 0 4px 10px rgba(92, 89, 89, 0.1);
+  max-width: 300px;
+  text-align: center;
+  border: 2px solid #000000;
+}
+
+.card-player img {
+  width: 100%;
+}
+
+.desc-musica {
+  text-align: left;
+  margin: 20px 0px 15px 0px;
+}
+
+.desc-musica span {
+  color: #091922;
+}
+
+.conteudo-musica p {
+  font-size: 2.4rem;
+  margin: 10px 0;
+}
+
+.conteudo-musica span {
+  font-size: 1.8rem;
+}
+
+.controles {
+  margin: 10px 0px 30px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.controles button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.controles button img {
+  width: 24px;
+  height: 24px;
+}
+
+#play img, #pause img {
+  width: 32px;
+  height: 32px;
+}
+
+.container-progresso input {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.tempo-musica {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
